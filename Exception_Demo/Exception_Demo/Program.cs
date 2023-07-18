@@ -1,0 +1,12 @@
+﻿namespace Exception_Demo
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            ExceptionHandle exception = new ExceptionHandle();
+            exception.Display();
+        }
+    }
+}
